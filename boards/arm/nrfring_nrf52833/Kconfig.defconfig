@@ -1,0 +1,15 @@
+# NRFRING board configuration
+#
+# Copyright (c) 2023 Aedan Cullen <aedan@aedancullen.com>
+# Copyright (c) 2021 u-blox AG
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_NRFRING_NRF52833
+
+config BOARD
+	default "nrfring_nrf52833"
+
+config BT_CTLR
+	default BT
+
+endif # BOARD_NRFRING_NRF52833

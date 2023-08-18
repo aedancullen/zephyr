@@ -1,0 +1,9 @@
+# NRFRING board configuration
+#
+# Copyright (c) 2023 Aedan Cullen <aedan@aedancullen.com>
+# Copyright (c) 2021 u-blox AG
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_NRFRING_NRF52833
+	bool "nRF Ring"
+	depends on SOC_NRF52833_QIAA
